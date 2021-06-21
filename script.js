@@ -49,5 +49,4 @@ const ativarDiv = (evento) => {
 exibir(sons);
 document.getElementById("container")
 .addEventListener("click", ativarDiv);
-//pega na janela quando aprtar tecla ativa a funcao ativarDiv;
 window.addEventListener ("keydown", ativarDiv);
